@@ -2,7 +2,7 @@ import requests
 import time
 
 # Configuration
-RADARR_API_URL = "http://192.168.1.3:7878/api/v3"
+RADARR_API_URL = "http://localhost:7878/api/v3"
 RADARR_API_KEY = "your_radarr_api_key"
 CHECK_INTERVAL = 60  # Check every 60 seconds
 

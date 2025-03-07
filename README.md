@@ -32,7 +32,7 @@ pip install requests
 Edit `radarr-monitor.py` and update the following configuration variables at the top of the file:
 
 ```python
-RADARR_API_URL = "http://192.168.1.3:7878/api/v3"  # Replace with your Radarr instance URL
+RADARR_API_URL = "http://localhost:7878/api/v3"  # Replace with your Radarr instance URL
 RADARR_API_KEY = "your_radarr_api_key"             # Replace with your Radarr API key
 CHECK_INTERVAL = 60                                 # Adjust check interval (in seconds) if needed
 ```
